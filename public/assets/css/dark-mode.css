@@ -1,0 +1,117 @@
+html.dark-style body {
+  background-color: #1f2228;
+  color: #e5e7eb;
+}
+
+html.dark-style .content-wrapper {
+  background-color: #1f2228;
+}
+
+html.dark-style a,
+html.dark-style .text-dark,
+html.dark-style .text-body,
+html.dark-style .text-heading,
+html.dark-style .form-label,
+html.dark-style .form-check-label,
+html.dark-style .breadcrumb-item,
+html.dark-style .breadcrumb-item a,
+html.dark-style .card-title,
+html.dark-style .card-header,
+html.dark-style .dropdown-header,
+html.dark-style .navbar-nav .nav-link,
+html.dark-style h1,
+html.dark-style h2,
+html.dark-style h3,
+html.dark-style h4,
+html.dark-style h5,
+html.dark-style h6,
+html.dark-style p,
+html.dark-style span,
+html.dark-style label,
+html.dark-style small,
+html.dark-style th,
+html.dark-style td,
+html.dark-style li,
+html.dark-style .list-group-item {
+  color: #e5e7eb !important;
+}
+
+html.dark-style .table-hover > tbody > tr:hover > * {
+  color: #e5e7eb;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+html.dark-style .bg-navbar-theme,
+html.dark-style .navbar,
+html.dark-style .layout-navbar {
+  background-color: #2a2f38 !important;
+  color: #e5e7eb;
+}
+
+html.dark-style .bg-menu-theme,
+html.dark-style .layout-menu {
+  background-color: #262b33 !important;
+  color: #e5e7eb;
+}
+
+html.dark-style .menu-inner .menu-link,
+html.dark-style .menu-inner .menu-header-text {
+  color: #e5e7eb !important;
+}
+
+html.dark-style .menu-item.active > .menu-link {
+  background-color: rgba(105, 108, 255, 0.2) !important;
+}
+
+html.dark-style .card,
+html.dark-style .modal-content,
+html.dark-style .dropdown-menu {
+  background-color: #262b33;
+  color: #e5e7eb;
+  border-color: #3a3f4b;
+}
+
+html.dark-style .dropdown-item {
+  color: #e5e7eb;
+}
+
+html.dark-style .dropdown-item:hover,
+html.dark-style .dropdown-item:focus {
+  background-color: #2f3540;
+}
+
+html.dark-style .table {
+  color: #e5e7eb;
+}
+
+html.dark-style .table-light {
+  --bs-table-bg: #2f3540;
+  --bs-table-color: #e5e7eb;
+}
+
+html.dark-style .text-muted {
+  color: #a1a1aa !important;
+}
+
+html.dark-style .form-control,
+html.dark-style .form-select {
+  background-color: #1f2228;
+  border-color: #3a3f4b;
+  color: #e5e7eb;
+}
+
+html.dark-style .form-control:focus,
+html.dark-style .form-select:focus {
+  background-color: #1f2228;
+  color: #e5e7eb;
+}
+
+html.dark-style .input-group-text {
+  background-color: #2a2f38;
+  border-color: #3a3f4b;
+  color: #e5e7eb;
+}
+
+html.dark-style .badge.bg-label-warning {
+  color: #e5e7eb;
+}
