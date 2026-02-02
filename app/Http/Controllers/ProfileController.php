@@ -26,13 +26,11 @@ class ProfileController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'email_username' => 'required|string|max:255',
-            'no_telp' => 'nullable|string|max:15',
         ]);
 
         $user->update([
             'name' => $request->name,
             'email' => $newEmail,
-            'no_telp' => $request->no_telp,
         ]);
 
         return redirect()->route('profile.edit')->with('success', 'Profil berhasil diperbarui.');

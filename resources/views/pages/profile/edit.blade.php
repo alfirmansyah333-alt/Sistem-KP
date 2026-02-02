@@ -85,16 +85,7 @@
                                     <span class="invalid-feedback d-block">{{ $message }}</span>
                                 @enderror
                             </div>
-                            <div class="mb-3 col-md-6">
-                                <label class="form-label" for="no_telp">Nomor Telepon</label>
-                                <div class="input-group input-group-merge">
-                                    <span class="input-group-text">+62</span>
-                                    <input type="text" id="no_telp" name="no_telp" class="form-control @error('no_telp') is-invalid @enderror" placeholder="812 3456 7890" value="{{ old('no_telp', $user->no_telp) }}" />
-                                </div>
-                                @error('no_telp')
-                                    <span class="invalid-feedback d-block">{{ $message }}</span>
-                                @enderror
-                            </div>
+
                         </div>
 
                         <div class="mt-2">
